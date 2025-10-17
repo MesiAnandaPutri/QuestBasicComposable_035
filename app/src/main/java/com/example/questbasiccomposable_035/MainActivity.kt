@@ -22,6 +22,8 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     TataLetakBoxColumnRow(
 
+
+
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
